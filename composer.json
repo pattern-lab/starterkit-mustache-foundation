@@ -1,7 +1,7 @@
 {
-	"name":             "pattern-lab/starterkit-mustache-demo",
-	"description":      "The Mustache-based demo StarterKit for Pattern Lab.",
-	"keywords":         ["mustache", "pattern lab", "starterkit", "demo"],
+	"name":             "pattern-lab/starterkit-mustache-foundation",
+	"description":      "The Mustache-based Foundation StarterKit for Pattern Lab.",
+	"keywords":         ["mustache", "pattern lab", "starterkit", "foundation"],
 	"homepage":         "http://patternlab.io",
 	"license":          "MIT",
 	"type":             "patternlab-starterkit",
@@ -14,14 +14,14 @@
 		},
 		{
 			"name":         "Brad Frost",
-			"homepage":     "http://bradfrostweb.com",
+			"homepage":     "http://bradfrost.com",
 			"role":         "Creator"
 		}
 	],
 	"support": {
-		"issues":         "https://github.com/pattern-lab/starterkit-mustache-demo/issues",
+		"issues":         "https://github.com/pattern-lab/starterkit-mustache-foundation/issues",
 		"wiki":           "http://patternlab.io/docs/",
-		"source":         "https://github.com/pattern-lab/starterkit-mustache-demo/releases"
+		"source":         "https://github.com/pattern-lab/starterkit-mustache-foundation/releases"
 	},
 	"require": {
 		"pattern-lab/core": "dev-dev",
