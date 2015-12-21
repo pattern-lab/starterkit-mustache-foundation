@@ -22,30 +22,110 @@
 	"labelClass" : "",
 	"floatLeft" : "float-left",
 	"floatRight" : "float-right",
-	"accordionList" : {
-		 "item1" : {
-			"accordionText" : "Item 1",
-			"item1Nested" : [
-				{
-					"item1Text" : "Item1A",
-					"item1NestedSublist" : [
-						{ "text" : "Item 1Ai" },
-						{ "text" : "Item 1Aii"},
-						{ "text" : "Item 1Aiii" }
+	"accordionMenu" : {
+		 "listItem" : [
+			{ "text" : "Item 1",
+			  "listItemNested" : [
+			     {  "text" : "Item1A",
+					"listItemNestedSublist" : [
+					  { "text" : "Item 1Ai" },
+					  { "text" : "Item 1Aii" },
+					  { "text" : "Item 1Aiii" }
 					]
-				}		
+			  	  },
+			  	  {  "text" : "Item2A",
+					"listItemNestedSublist" : [
+					  { "text" : "Item 2Ai" },
+					  { "text" : "Item 2Aii" }
+					]
+			  	  }			
+			  ]
+			},
+			{ "text" : "Item 2",
+			"listItemNested" : [
+				{ "text" : "Item2A" },
+				{ "text" : "Item2B" },
+				{ "text" : "Item2C" }	
 			]
-		},
-		 "item2" : {
-			 "accordionText" : "Item 2",
-			 "item2Nested" : [
-				{ "text" : "Item 2A" },
-				{ "text" : "Item 2B" },
-				{ "text" : "Item 2C" }		
-			]
-		},
-		"item3" : [
+			},
 			{ "text" : "Item 3"}
 		]
-	}
+	},
+	"breadcrumbs" : [
+		{ "text" : "Home",
+		  "hasUrl" : true },
+		{ "text" : "Features",
+		  "hasUrl" : true},
+		{ "text" : "Gene Splicing",
+		  "hasUrl" : false,
+		  "breadcrumbDisabled" : true},
+		{ "text" : "Cloning",
+		  "hasUrl" : false,
+		  "breadcrumbDisabled" : false,
+		  "currentBreadcrumb" : true}
+	],
+	"srOnlyText" : "Current:",
+	"srClass" : "show-for-sr",
+	"drilldownMenu" : [
+		{ "text" : "Item 1",
+		  "url" : "#",	
+		  "drilldownSubmenu" : [
+			{ "drilldownSubmenuList" : [
+				{ "text" : "Item 1A",
+				  "url" : "#",
+				  "drilldownSubSubmenu" : [
+					 { "drilldownSubSubmenuList" : [
+						  {"text" : "Item 1Aa",
+						   "url" : "#" },
+						  {"text" : "Item 1Ab",
+						   "url" : "#" },
+						  {"text" : "Item 1Ac",
+						   "url" : "#" },
+						  {"text" : "Item 1Ad",
+						   "url" : "#" }
+					  ] }
+				  ]
+				},
+				{ "text" : "Item 1B",
+					"url" : "#" },
+				{ "text" : "Item 1C",
+					"url" : "#" },
+				{ "text" : "Item 1D",
+					"url" : "#" }
+			] }
+		  ]
+			
+		},
+		{ "text" : "Item 2",
+		  "url" : "#" ,
+		  "drilldownSubmenu" : [
+			{ "drilldownSubmenuList" : [
+				{ "text" : "Item 2A",
+				  "url" : "#" },
+				{ "text" : "Item 2B",
+				  "url" : "#" },
+				{ "text" : "Item 2C",
+				  "url" : "#" },
+				{ "text" : "Item 2D",
+			      "url" : "#" }
+			] }
+		  ]	
+		},
+		{ "text" : "Item 3",
+			"url" : "#",
+		  "drilldownSubmenu" : [
+			{ "drilldownSubmenuList" : [
+				{ "text" : "Item 3A",
+				  "url" : "#" },
+				{ "text" : "Item 3B",
+				  "url" : "#" },
+				{ "text" : "Item 3C",
+				  "url" : "#" }
+			] }
+		  ]	
+		},
+		{ "text" : "Item 4",
+		  "url" : "#" }
+	]
+		
 }
