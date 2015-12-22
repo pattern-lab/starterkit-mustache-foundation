@@ -1,10 +1,12 @@
 {
 	"title" : "Pattern Lab",
-	"heading" : "Page Header",
+	"heading" : "Page Heading",
 	"subheading" : "Subtext For Header",
 	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	"text-short" : "Lorem ipsum dolor sit amet",
 	"url" : "#",
 	"cta" : "Call To Action",
+	"placeholder" : "Placeholder Text",
 	"listItem" : "List Item",
 	"listItemNested" : "Nested List Item",
 	"term" : "Term",
@@ -187,5 +189,178 @@
 			"paginationDisabled" : false,
 			"hasUrl" : true 
 		}
-	]	
+	],
+	"accordionList" : [
+		{
+			"panelUrl" : "#panel1d",
+			"accordionHeading" : "Accordion 1",
+			"activeClass" : "is-active" 
+		},
+		{
+			"panelUrl" : "#panel1d",
+			"accordionHeading" : "Accordion 2"
+		},
+		{
+			"panelUrl" : "#panel1d",
+			"accordionHeading" : "Accordion 1"
+		}
+	],
+	"calloutClass" : "",
+	"th" : [
+		{ "tableHeading" : "Table Header"},
+		{ "tableHeading" : "Table Header"},
+		{ "tableHeading" : "Table Header"}
+	],
+	"tr" : [
+		{
+			"td" : [
+				{ "text" : "row 1 cell 1" },
+				{ "text" : "row 1 cell 2" },
+				{ "text" : "row 1 cell 3" }
+
+			]
+		},
+		{
+			"td" : [
+				{ "text" : "row 2 cell 1" },
+				{ "text" : "row 2 cell 2" },
+				{ "text" : "row 2 cell 3" }
+
+			]
+		}	
+	],
+	"tabsList" : [
+		{
+			"text" : "Tab 1",
+			"href" : "#panel1",
+			"activeClass" : "is-active"
+		},
+		{
+			"text" : "Tab 2",
+			"href" : "#panel2"
+		},
+		{
+			"text" : "Tab 3",
+			"href" : "#panel3"
+		},
+		{
+			"text" : "Tab 4",
+			"href" : "#panel4"
+		}
+	],
+	"tabsPanel" : [
+		{
+			"number" : "one",
+			"id" : "panel1",
+			"hasCaption": true,
+			"hasImage" : false,
+			"activeClass" : "is-active"
+		},
+		{
+			"number" : "two",
+			"id" : "panel2",
+			"hasCaption": false,
+			"hasImage" : true,
+			"src" : "../../img/orbit-1.jpg"
+		},
+		{
+			"number" : "three",
+			"id" : "panel3",
+			"hasCaption": true,
+			"hasImage" : false
+		},
+		{
+			"number" : "four",
+			"id" : "panel4",
+			"hasCaption": false,
+			"hasImage" : true,
+			"src" : "../../img/orbit-3.jpg"
+		}
+	],
+	"videoSrc" : "https://www.youtube.com/embed/i7gIpuIVE3k",
+	"mediaObjectImage" : "http://placeimg.com/200/200/people",
+	"orbitSlide" : [
+		{
+			"activeClass" : "is-active",
+			"src" : "../../img/orbit-1.jpg",
+			"alt" : "Galaxy",
+			"text" : "To Infinity And Beyond"	
+		},
+		{
+			"src" : "../../img/orbit-2.jpg",
+			"alt" : "Space Shuttle",
+			"text" : "Blast Off!"	
+		},
+		{
+			"src" : "../../img/orbit-3.jpg",
+			"alt" : "USA Space Capsule",
+			"text" : "Houston, We've Got A Problem"	
+		},
+		{
+			"src" : "../../img/orbit-4.jpg",
+			"alt" : "Space",
+			"text" : "Out Of This World"	
+		}
+	],
+	"orbitBullets" : [
+		{
+			"activeClass" : true,
+			"currentSlide" : true,
+			"number" : 0,
+			"slideDetails" : "First slide details"
+		},
+		{
+			"number" : 1,
+			"slideDetails" : "Second slide details"
+		},
+		{
+			"number" : 2,
+			"slideDetails" : "Third slide details"
+		},
+		{
+			"number" : 3,
+			"slideDetails" : "Fourth slide details"
+		}
+	],
+	"tooltipHighlight" : "temerarious",
+	"tooltipHoverState" : "reckless; rash",
+	"inputLabel" : "Input Label",
+	"radioLegend" : "Choose Your Favorite",
+	"radioList" : [
+		{
+		"radioName" : "pokemon",
+		"radioValue" : "Red",
+		"radioId" : "pokemonRed",
+		"radioLabel" : "Red"
+		},
+		{
+		"radioName" : "pokemon",
+		"radioValue" : "Blue",
+		"radioId" : "pokemonBlue",
+		"radioLabel" : "Blue"
+		},
+		{
+		"radioName" : "pokemon",
+		"radioValue" : "Yellow",
+		"radioId" : "pokemonYellow",
+		"radioLabel" : "Yellow"
+		}
+	],
+	"checkLegend" : "Check These Out",
+	"checkList" : [
+		{
+			"checkId" : "checkbox1",
+			"checkLabel" : "Checkbox 1"
+		},
+		{
+			"checkId" : "checkbox2",
+			"checkLabel" : "Checkbox 2"
+		},
+		{
+			"checkId" : "checkbox3",
+			"checkLabel" : "Checkbox 3"
+		}
+	],
+	"inputLabelSymbol" : "$",
+	"siteTitle" : "Site Title"
 }
