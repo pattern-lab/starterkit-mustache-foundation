@@ -1,38 +1,25 @@
 <ul class="dropdown menu" data-dropdown-menu>
+  {{# listItem }}
   <li>
-    <a>Item 1</a>
+    <a href="{{ url }}">{{ text }}</a>
+    {{# dropdownNested }}
     <ul class="menu">
-      <li><a href="#">Item 1A Loooong</a></li>
+	  {{# nestedListItem}}
       <li>
-        <a href='#'> Item 1 sub</a>
+        <a href='{{ url }}'> {{ text }}</a>
+        {{# dropdownNestedSublist }}
         <ul class='menu'>
-          <li><a href='#'>Item 1 subA</a></li>
-          <li><a href='#'>Item 1 subB</a></li>
+	      {{# nestedSublistItem }}
           <li>
-            <a href='#'> Item 1 sub</a>
-            <ul class='menu'>
-              <li><a href='#'>Item 1 subA</a></li>
-              <li><a href='#'>Item 1 subB</a></li>
-            </ul>
+            <a href='{{ url }}'> {{ text }}</a>
           </li>
-          <li>
-            <a href='#'> Item 1 sub</a>
-            <ul class='menu'>
-              <li><a href='#'>Item 1 subA</a></li>
-            </ul>
-          </li>
+          {{/ nestedSublistItem }}
         </ul>
+        {{/ dropdownNestedSublist }}
       </li>
-      <li><a href="#">Item 1B</a></li>
+	  {{/ nestedListItem}}
     </ul>
+    {{/ dropdownNested }}
   </li>
-  <li>
-    <a href="#">Item 2</a>
-    <ul class="menu">
-      <li><a href="#">Item 2A</a></li>
-      <li><a href="#">Item 2B</a></li>
-    </ul>
-  </li>
-  <li><a href="#">Item 3</a></li>
-  <li><a href='#'>Item 4</a></li>
+  {{/ listItem }}
 </ul>

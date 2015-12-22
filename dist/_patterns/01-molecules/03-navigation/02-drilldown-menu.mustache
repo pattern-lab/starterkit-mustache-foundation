@@ -1,14 +1,14 @@
-<ul class="vertical menu" data-drilldown style="width: 200px" id="m1">
+<ul class="vertical menu" data-drilldown>
   {{# drilldownMenu }}
   <li>
     <a href="{{ url }}">{{ text }}</a>
     {{# drilldownSubmenu }}
-    <ul class="vertical menu" id="m2">
+    <ul class="vertical menu">
 	  {{# drilldownSubmenuList }}
       <li>
         <a href="{{ url }}">{{ text }}</a>
         {{# drilldownSubSubmenu}}
-        <ul class="vertical menu" id="m3">
+        <ul class="vertical menu">
 	      {{# drilldownSubSubmenuList }}
           <li><a href="{{ url }}">{{ text }}</a></li>
           {{/ drilldownSubSubmenuList }}

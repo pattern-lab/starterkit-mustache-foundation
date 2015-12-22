@@ -1,7 +1,7 @@
 <nav aria-label="You are here:" role="navigation">
   <ul class="breadcrumbs">
    	{{# breadcrumbs }}
-    <li {{# breadcrumbDisabled }}class="disabled"{{/ breadcrumbDisabled }}>{{# hasUrl}}<a href="#">{{/ hasUrl }}{{# currentBreadcrumb }}<span class="{{ srClass }}">{{ srOnlyText }}</span>{{/ currentBreadcrumb }}{{ text }}{{# hasUrl }}</a>{{/ hasUrl}}</li>
+    <li {{# breadcrumbDisabled }}class="disabled"{{/ breadcrumbDisabled }}>{{# hasUrl}}<a href="{{ url }}">{{/ hasUrl }}{{# currentBreadcrumb }}<span class="{{ srClass }}">{{ srOnlyText }}</span>{{/ currentBreadcrumb }}{{ text }}{{# hasUrl }}</a>{{/ hasUrl}}</li>
     {{/ breadcrumbs }}
   </ul>
 </nav>
