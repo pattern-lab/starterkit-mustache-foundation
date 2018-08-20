@@ -7,7 +7,6 @@
 	"url" : "#",
 	"cta" : "Call To Action",
 	"placeholder" : "Placeholder Text",
-	"listItem" : "List Item",
 	"listItemNested" : "Nested List Item",
 	"term" : "Term",
 	"definition" : "This is the definition of the term.",
